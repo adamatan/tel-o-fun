@@ -1,0 +1,30 @@
+{
+  "name": "tel-o-fun",
+  "version": "0.9.0",
+  "description": "Programmatic access to live Tel-O-Fun (Tel Aviv City bike) data, including station location and bike availability",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:adamatan/tel-o-fun.git"
+  },
+  "keywords": [
+    "api",
+    "telofun",
+    "tel-o-fun",
+    "Tel",
+    "Aviv"
+  ],
+  "author": "Adam Matan <adam@matan.name>",
+  "license": "MIT",
+  "dependencies": {
+    "x-ray": "^2.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}
