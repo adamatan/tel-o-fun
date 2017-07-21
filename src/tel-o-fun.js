@@ -3,12 +3,8 @@
  * each having location and bike availability data.
  *
  */
-
-const path = require('path');
 const Xray = require('x-ray');
-const read = require('fs').readFileSync;
 
-const html = read(path.resolve(__dirname, 'index.html'));
 const xray = Xray();
 
 /**
