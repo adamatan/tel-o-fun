@@ -1,14 +1,14 @@
 {
-  "name": "tel-o-fun",
+  "name": "telofun",
   "version": "0.9.0",
   "description": "Programmatic access to live Tel-O-Fun (Tel Aviv City bike) data, including station location and bike availability",
-  "main": "tel-o-fun.js",
+  "main": "index.js",
   "scripts": {
     "test": "ava --verbose"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:adamatan/tel-o-fun.git"
+    "url": "git@github.com:adamatan/telofun.git"
   },
   "keywords": [
     "api",
