@@ -17,8 +17,14 @@ test('Station Count', (t) => {
 });
 
 test('Every station object has all expected fields', (t) => {
-  t.is(stations.every((station) => {
-    return ('stationId' in station);
-  }), true);
+  t.is(stations.every(station => (
+      'stationId' in station &&
+      'location' in station &&
+      'bikes' in station &&
+      'lat' in station.location &&
+      'lon' in station.location &&
+      'address' in station.location &&
+      'availableBikes' in station.bikes &&
+      'availableParkingSlots' in station.bikes)), true);
 });
 
