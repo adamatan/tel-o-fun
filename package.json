@@ -4,7 +4,7 @@
   "description": "Programmatic access to live Tel-O-Fun (Tel Aviv City bike) data, including station location and bike availability",
   "main": "tel-o-fun.js",
   "scripts": {
-    "test": "ava"
+    "test": "ava --verbose"
   },
   "repository": {
     "type": "git",
