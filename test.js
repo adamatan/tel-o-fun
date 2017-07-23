@@ -9,8 +9,8 @@ test('foo', (t) => {
   t.pass();
 });
 
-test('Station Count', (t) => {
-  return telofun(html).then((result) => {
+test('Station Count', (t) => ({
+  telofun(html).then((result) => {
     t.is(result.length > 200, true);
   });
-});
+}));
