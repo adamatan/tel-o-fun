@@ -6,10 +6,7 @@ const telofun = require('.');
 
 const html = read(path.resolve(__dirname, 'examples/local/index.html'));
 
-test('Station Count', (t) => {
-  return telofun(html)
+test('Station Count', t => telofun(html)
   .then((result) => {
     t.is(result.length > 200, true);
-  });
-},
-);
+  }));
