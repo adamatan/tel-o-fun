@@ -47,6 +47,7 @@ function scrapeBikeStations(rawHtml) {
       if (err) {
         reject(err);
       } else {
+        stations.sort((a, b) => (a.stationId - b.stationId));
         resolve(stations.map(s => processStation(s)));
       }
     });
