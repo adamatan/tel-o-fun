@@ -6,6 +6,9 @@
   "scripts": {
     "test": "ava --verbose"
   },
+  "bin": {
+    "tfn": "bin/tfn.js"
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:adamatan/telofun.git"
@@ -20,6 +23,8 @@
   "author": "Adam Matan <adam@matan.name>",
   "license": "MIT",
   "dependencies": {
+    "cli-table": "^0.3.1",
+    "commander": "^2.11.0",
     "x-ray": "^2.3.2"
   },
   "devDependencies": {
