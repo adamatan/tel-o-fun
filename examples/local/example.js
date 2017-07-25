@@ -4,6 +4,7 @@
 const path = require('path');
 const read = require('fs').readFileSync;
 const telofun = require('../..');
+
 const html = read(path.resolve(__dirname, 'index.html'));
 
 telofun(html)
